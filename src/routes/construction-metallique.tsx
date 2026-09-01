@@ -9,17 +9,36 @@ export const Route = createFileRoute("/construction-metallique")({
       {
         name: "description",
         content:
-          "Hangars, bâtiments industriels, mezzanines et passerelles en acier : étude, fabrication et montage par l'atelier SAM MECA.",
+          "Construction métallique : hangars, bâtiments industriels, mezzanines et passerelles en acier. Étude, fabrication et montage par l'atelier SAM MECA.",
       },
+      { name: "keywords", content: "construction métallique, structure métallique, hangar métallique, mezzanine, atelier métallerie" },
       { property: "og:title", content: "Construction métallique sur mesure — SAM MECA" },
       {
         property: "og:description",
         content: "Structures acier clés en main : hangars, mezzanines, passerelles, escaliers.",
       },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "/construction-metallique" },
+    ],
+    links: [{ rel: "canonical", href: "/construction-metallique" }],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Service",
+          serviceType: "Construction métallique",
+          provider: { "@type": "Organization", name: "SAM MECA" },
+          areaServed: "Tunisie",
+          description:
+            "Fabrication et montage de bâtiments industriels, hangars, mezzanines et passerelles en acier.",
+        }),
+      },
     ],
   }),
   component: Page,
 });
+
 
 function Page() {
   return (

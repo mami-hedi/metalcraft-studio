@@ -9,17 +9,36 @@ export const Route = createFileRoute("/citernes")({
       {
         name: "description",
         content:
-          "Fabrication de citernes sur mesure : eau, carburant, produits chimiques et agroalimentaires, en acier ou inox, aériennes ou enterrées.",
+          "Confection de citernes sur mesure : eau, carburant, produits chimiques et agroalimentaires, en acier ou inox, aériennes, enterrées ou sur châssis.",
       },
+      { name: "keywords", content: "citerne, confection citerne, citerne acier, citerne inox, cuve de stockage" },
       { property: "og:title", content: "Confection de citernes — SAM MECA" },
       {
         property: "og:description",
         content: "Citernes acier et inox, de 1 000 à 50 000 litres, testées avant livraison.",
       },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "/citernes" },
+    ],
+    links: [{ rel: "canonical", href: "/citernes" }],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Service",
+          serviceType: "Confection de citernes",
+          provider: { "@type": "Organization", name: "SAM MECA" },
+          areaServed: "Tunisie",
+          description:
+            "Fabrication de citernes de stockage et de transport en acier et inox, de 1 000 à 50 000 litres.",
+        }),
+      },
     ],
   }),
   component: Page,
 });
+
 
 function Page() {
   return (

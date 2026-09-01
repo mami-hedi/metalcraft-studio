@@ -5,21 +5,40 @@ import img from "@/assets/charpente.jpg";
 export const Route = createFileRoute("/charpente-metallique")({
   head: () => ({
     meta: [
-      { title: "Charpente métallique — fermes et portiques | SAM MECA" },
+      { title: "Charpente métallique : fermes, portiques et pannes — SAM MECA" },
       {
         name: "description",
         content:
-          "Conception et fabrication de charpentes métalliques : fermes treillis, portiques, pannes et contreventements, montés sur chantier.",
+          "Charpente métallique sur mesure : fermes treillis, portiques, pannes et contreventements, calculés, fabriqués et montés par SAM MECA.",
       },
+      { name: "keywords", content: "charpente métallique, charpente, ferme treillis, portique métallique, hangar" },
       { property: "og:title", content: "Charpente métallique — SAM MECA" },
       {
         property: "og:description",
         content: "Fermes treillis, portiques et pannes calculés et montés par nos équipes.",
       },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "/charpente-metallique" },
+    ],
+    links: [{ rel: "canonical", href: "/charpente-metallique" }],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Service",
+          serviceType: "Charpente métallique",
+          provider: { "@type": "Organization", name: "SAM MECA" },
+          areaServed: "Tunisie",
+          description:
+            "Étude, préfabrication et montage de charpentes métalliques : fermes, portiques, pannes et contreventements.",
+        }),
+      },
     ],
   }),
   component: Page,
 });
+
 
 function Page() {
   return (
