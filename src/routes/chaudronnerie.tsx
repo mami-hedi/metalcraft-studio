@@ -9,17 +9,36 @@ export const Route = createFileRoute("/chaudronnerie")({
       {
         name: "description",
         content:
-          "Chaudronnerie sur mesure : roulage, pliage, découpe plasma et soudure TIG/MIG sur acier, inox et aluminium.",
+          "Chaudronnerie industrielle sur mesure : roulage, pliage, découpe plasma et soudure TIG/MIG sur acier, inox et aluminium.",
       },
+      { name: "keywords", content: "chaudronnerie, chaudronnerie industrielle, soudure, roulage tôle, inox" },
       { property: "og:title", content: "Chaudronnerie industrielle — SAM MECA" },
       {
         property: "og:description",
         content: "Viroles, trémies, tuyauteries et pièces sur plan en acier, inox et aluminium.",
       },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "/chaudronnerie" },
+    ],
+    links: [{ rel: "canonical", href: "/chaudronnerie" }],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Service",
+          serviceType: "Chaudronnerie",
+          provider: { "@type": "Organization", name: "SAM MECA" },
+          areaServed: "Tunisie",
+          description:
+            "Chaudronnerie acier, inox et aluminium : viroles, trémies, tuyauteries et pièces sur plan.",
+        }),
+      },
     ],
   }),
   component: Page,
 });
+
 
 function Page() {
   return (

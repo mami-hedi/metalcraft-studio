@@ -5,21 +5,40 @@ import img from "@/assets/remorque.jpg";
 export const Route = createFileRoute("/remorques")({
   head: () => ({
     meta: [
-      { title: "Fabrication de remorques et semi-remorques — SAM MECA" },
+      { title: "Fabrication de remorques et bennes sur mesure — SAM MECA" },
       {
         name: "description",
         content:
-          "Remorques sur mesure : plateaux, bennes, porte-engins et remorques citerne. Châssis renforcé, freinage et signalisation conformes.",
+          "Fabrication de remorques sur mesure : plateaux, bennes basculantes, porte-engins et remorques citerne. Châssis renforcé, freinage et signalisation conformes.",
       },
+      { name: "keywords", content: "remorque, fabrication remorque, benne basculante, porte-engins, châssis remorque" },
       { property: "og:title", content: "Fabrication de remorques — SAM MECA" },
       {
         property: "og:description",
         content: "Plateaux, bennes, porte-engins : châssis robustes fabriqués en atelier.",
       },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "/remorques" },
+    ],
+    links: [{ rel: "canonical", href: "/remorques" }],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Service",
+          serviceType: "Fabrication de remorques",
+          provider: { "@type": "Organization", name: "SAM MECA" },
+          areaServed: "Tunisie",
+          description:
+            "Remorques sur mesure : plateaux, bennes basculantes, porte-engins et remorques spéciales.",
+        }),
+      },
     ],
   }),
   component: Page,
 });
+
 
 function Page() {
   return (
