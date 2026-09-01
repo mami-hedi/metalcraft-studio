@@ -10,33 +10,128 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as AProposRouteImport } from './routes/a-propos'
+import { Route as CharpenteMetalliqueRouteImport } from './routes/charpente-metallique'
+import { Route as ChaudronnerieRouteImport } from './routes/chaudronnerie'
+import { Route as CiternesRouteImport } from './routes/citernes'
+import { Route as ConstructionMetalliqueRouteImport } from './routes/construction-metallique'
+import { Route as ContactRouteImport } from './routes/contact'
+import { Route as RemorquesRouteImport } from './routes/remorques'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AProposRoute = AProposRouteImport.update({
+  id: '/a-propos',
+  path: '/a-propos',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CharpenteMetalliqueRoute = CharpenteMetalliqueRouteImport.update({
+  id: '/charpente-metallique',
+  path: '/charpente-metallique',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ChaudronnerieRoute = ChaudronnerieRouteImport.update({
+  id: '/chaudronnerie',
+  path: '/chaudronnerie',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CiternesRoute = CiternesRouteImport.update({
+  id: '/citernes',
+  path: '/citernes',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ConstructionMetalliqueRoute = ConstructionMetalliqueRouteImport.update({
+  id: '/construction-metallique',
+  path: '/construction-metallique',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ContactRoute = ContactRouteImport.update({
+  id: '/contact',
+  path: '/contact',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RemorquesRoute = RemorquesRouteImport.update({
+  id: '/remorques',
+  path: '/remorques',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/a-propos': typeof AProposRoute
+  '/charpente-metallique': typeof CharpenteMetalliqueRoute
+  '/chaudronnerie': typeof ChaudronnerieRoute
+  '/citernes': typeof CiternesRoute
+  '/construction-metallique': typeof ConstructionMetalliqueRoute
+  '/contact': typeof ContactRoute
+  '/remorques': typeof RemorquesRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/a-propos': typeof AProposRoute
+  '/charpente-metallique': typeof CharpenteMetalliqueRoute
+  '/chaudronnerie': typeof ChaudronnerieRoute
+  '/citernes': typeof CiternesRoute
+  '/construction-metallique': typeof ConstructionMetalliqueRoute
+  '/contact': typeof ContactRoute
+  '/remorques': typeof RemorquesRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/a-propos': typeof AProposRoute
+  '/charpente-metallique': typeof CharpenteMetalliqueRoute
+  '/chaudronnerie': typeof ChaudronnerieRoute
+  '/citernes': typeof CiternesRoute
+  '/construction-metallique': typeof ConstructionMetalliqueRoute
+  '/contact': typeof ContactRoute
+  '/remorques': typeof RemorquesRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/a-propos'
+    | '/charpente-metallique'
+    | '/chaudronnerie'
+    | '/citernes'
+    | '/construction-metallique'
+    | '/contact'
+    | '/remorques'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/a-propos'
+    | '/charpente-metallique'
+    | '/chaudronnerie'
+    | '/citernes'
+    | '/construction-metallique'
+    | '/contact'
+    | '/remorques'
+  id:
+    | '__root__'
+    | '/'
+    | '/a-propos'
+    | '/charpente-metallique'
+    | '/chaudronnerie'
+    | '/citernes'
+    | '/construction-metallique'
+    | '/contact'
+    | '/remorques'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AProposRoute: typeof AProposRoute
+  CharpenteMetalliqueRoute: typeof CharpenteMetalliqueRoute
+  ChaudronnerieRoute: typeof ChaudronnerieRoute
+  CiternesRoute: typeof CiternesRoute
+  ConstructionMetalliqueRoute: typeof ConstructionMetalliqueRoute
+  ContactRoute: typeof ContactRoute
+  RemorquesRoute: typeof RemorquesRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -48,11 +143,67 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/a-propos': {
+      id: '/a-propos'
+      path: '/a-propos'
+      fullPath: '/a-propos'
+      preLoaderRoute: typeof AProposRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/charpente-metallique': {
+      id: '/charpente-metallique'
+      path: '/charpente-metallique'
+      fullPath: '/charpente-metallique'
+      preLoaderRoute: typeof CharpenteMetalliqueRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/chaudronnerie': {
+      id: '/chaudronnerie'
+      path: '/chaudronnerie'
+      fullPath: '/chaudronnerie'
+      preLoaderRoute: typeof ChaudronnerieRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/citernes': {
+      id: '/citernes'
+      path: '/citernes'
+      fullPath: '/citernes'
+      preLoaderRoute: typeof CiternesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/construction-metallique': {
+      id: '/construction-metallique'
+      path: '/construction-metallique'
+      fullPath: '/construction-metallique'
+      preLoaderRoute: typeof ConstructionMetalliqueRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/contact': {
+      id: '/contact'
+      path: '/contact'
+      fullPath: '/contact'
+      preLoaderRoute: typeof ContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/remorques': {
+      id: '/remorques'
+      path: '/remorques'
+      fullPath: '/remorques'
+      preLoaderRoute: typeof RemorquesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AProposRoute: AProposRoute,
+  CharpenteMetalliqueRoute: CharpenteMetalliqueRoute,
+  ChaudronnerieRoute: ChaudronnerieRoute,
+  CiternesRoute: CiternesRoute,
+  ConstructionMetalliqueRoute: ConstructionMetalliqueRoute,
+  ContactRoute: ContactRoute,
+  RemorquesRoute: RemorquesRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
