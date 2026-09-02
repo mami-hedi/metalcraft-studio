@@ -1,25 +1,56 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { Mail, MapPin, Phone, Clock } from "lucide-react";
+import { SITE } from "@/lib/site";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact & devis — SAM MECA" },
+      { title: "Contact & devis — SAM MECA Hammamet" },
       {
         name: "description",
         content:
-          "Contactez l'atelier SAM MECA pour un devis en construction métallique, chaudronnerie, charpente, citernes ou remorques. Réponse sous 48 h.",
+          "Contactez l'atelier SAM MECA à Hammamet pour un devis en construction métallique, chaudronnerie, charpente, citernes ou remorques. Tél. +216 94 358 115.",
+      },
+      {
+        name: "keywords",
+        content: "devis construction métallique, chaudronnerie Hammamet, charpente, citerne, remorque",
       },
       { property: "og:title", content: "Contact & devis — SAM MECA" },
       {
         property: "og:description",
         content: "Décrivez votre projet acier, nous revenons vers vous sous 48 heures.",
       },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "/contact" },
+    ],
+    links: [{ rel: "canonical", href: "/contact" }],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          name: "SAM MECA",
+          description:
+            "Atelier de construction métallique, chaudronnerie, charpente métallique, confection de citernes et de remorques.",
+          telephone: SITE.phone,
+          email: SITE.email,
+          address: {
+            "@type": "PostalAddress",
+            streetAddress: "Barraket Sahel, Route Sidi Hamed",
+            postalCode: "8050",
+            addressLocality: "Hammamet",
+            addressCountry: "TN",
+          },
+          openingHours: "Mo-Sa 08:00-18:00",
+        }),
+      },
     ],
   }),
   component: Page,
 });
+
 
 const services = [
   "Construction métallique",

@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as AProposRouteImport } from './routes/a-propos'
+import { Route as AtelierRouteImport } from './routes/atelier'
 import { Route as CharpenteMetalliqueRouteImport } from './routes/charpente-metallique'
 import { Route as ChaudronnerieRouteImport } from './routes/chaudronnerie'
 import { Route as CiternesRouteImport } from './routes/citernes'
@@ -26,6 +27,11 @@ const IndexRoute = IndexRouteImport.update({
 const AProposRoute = AProposRouteImport.update({
   id: '/a-propos',
   path: '/a-propos',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AtelierRoute = AtelierRouteImport.update({
+  id: '/atelier',
+  path: '/atelier',
   getParentRoute: () => rootRouteImport,
 } as any)
 const CharpenteMetalliqueRoute = CharpenteMetalliqueRouteImport.update({
@@ -62,6 +68,7 @@ const RemorquesRoute = RemorquesRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/a-propos': typeof AProposRoute
+  '/atelier': typeof AtelierRoute
   '/charpente-metallique': typeof CharpenteMetalliqueRoute
   '/chaudronnerie': typeof ChaudronnerieRoute
   '/citernes': typeof CiternesRoute
@@ -72,6 +79,7 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/a-propos': typeof AProposRoute
+  '/atelier': typeof AtelierRoute
   '/charpente-metallique': typeof CharpenteMetalliqueRoute
   '/chaudronnerie': typeof ChaudronnerieRoute
   '/citernes': typeof CiternesRoute
@@ -83,6 +91,7 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/a-propos': typeof AProposRoute
+  '/atelier': typeof AtelierRoute
   '/charpente-metallique': typeof CharpenteMetalliqueRoute
   '/chaudronnerie': typeof ChaudronnerieRoute
   '/citernes': typeof CiternesRoute
@@ -95,6 +104,7 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/a-propos'
+    | '/atelier'
     | '/charpente-metallique'
     | '/chaudronnerie'
     | '/citernes'
@@ -105,6 +115,7 @@ export interface FileRouteTypes {
   to:
     | '/'
     | '/a-propos'
+    | '/atelier'
     | '/charpente-metallique'
     | '/chaudronnerie'
     | '/citernes'
@@ -115,6 +126,7 @@ export interface FileRouteTypes {
     | '__root__'
     | '/'
     | '/a-propos'
+    | '/atelier'
     | '/charpente-metallique'
     | '/chaudronnerie'
     | '/citernes'
@@ -126,6 +138,7 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AProposRoute: typeof AProposRoute
+  AtelierRoute: typeof AtelierRoute
   CharpenteMetalliqueRoute: typeof CharpenteMetalliqueRoute
   ChaudronnerieRoute: typeof ChaudronnerieRoute
   CiternesRoute: typeof CiternesRoute
@@ -148,6 +161,13 @@ declare module '@tanstack/react-router' {
       path: '/a-propos'
       fullPath: '/a-propos'
       preLoaderRoute: typeof AProposRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/atelier': {
+      id: '/atelier'
+      path: '/atelier'
+      fullPath: '/atelier'
+      preLoaderRoute: typeof AtelierRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/charpente-metallique': {
@@ -198,6 +218,7 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AProposRoute: AProposRoute,
+  AtelierRoute: AtelierRoute,
   CharpenteMetalliqueRoute: CharpenteMetalliqueRoute,
   ChaudronnerieRoute: ChaudronnerieRoute,
   CiternesRoute: CiternesRoute,
