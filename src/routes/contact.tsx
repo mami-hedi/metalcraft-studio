@@ -168,18 +168,36 @@ function Page() {
           <div className="rule-signal" />
           <ul className="mt-6 space-y-4 text-sm text-muted-foreground">
             <li className="flex gap-3">
-              <MapPin className="h-4 w-4 shrink-0 text-accent" /> Zone industrielle, Tunisie
+              <MapPin className="h-4 w-4 shrink-0 text-accent" />
+              <span>
+                Barraket Sahel, Route Sidi Hamed
+                <br />
+                8050 Hammamet, Tunisie
+              </span>
             </li>
             <li className="flex gap-3">
-              <Phone className="h-4 w-4 shrink-0 text-accent" /> +216 00 000 000
+              <Phone className="h-4 w-4 shrink-0 text-accent" />
+              <a href={SITE.phoneHref} className="hover:text-accent">
+                {SITE.phone}
+              </a>
             </li>
             <li className="flex gap-3">
-              <Mail className="h-4 w-4 shrink-0 text-accent" /> contact@sammeca.com
+              <Mail className="h-4 w-4 shrink-0 text-accent" />
+              <a href={`mailto:${SITE.email}`} className="hover:text-accent">
+                {SITE.email}
+              </a>
             </li>
             <li className="flex gap-3">
-              <Clock className="h-4 w-4 shrink-0 text-accent" /> Lun – Sam : 8h00 – 18h00
+              <Clock className="h-4 w-4 shrink-0 text-accent" /> {SITE.hours}
             </li>
           </ul>
+          <a
+            href={SITE.phoneHref}
+            className="mt-6 flex items-center justify-center gap-2 bg-accent px-5 py-3 text-xs font-bold uppercase text-accent-foreground transition-opacity hover:opacity-90"
+          >
+            <Phone className="h-4 w-4" /> Appeler l'atelier
+          </a>
+
         </aside>
       </section>
     </div>
