@@ -5,21 +5,47 @@ import img from "@/assets/chaudronnerie.jpg";
 export const Route = createFileRoute("/a-propos")({
   head: () => ({
     meta: [
-      { title: "L'atelier SAM MECA — savoir-faire et équipements" },
+      { title: "À propos de SAM MECA — métallier à Hammamet" },
       {
         name: "description",
         content:
-          "Découvrez l'atelier SAM MECA : équipe de soudeurs et monteurs qualifiés, parc machines complet et exigence de qualité sur chaque ouvrage.",
+          "SAM MECA : plus de 20 ans d'expérience en construction métallique, charpente, chaudronnerie, citernes et remorques, à Barraket Sahel, Hammamet.",
       },
-      { property: "og:title", content: "L'atelier SAM MECA" },
+      {
+        name: "keywords",
+        content: "SAM MECA, métallier Hammamet, construction métallique, chaudronnerie, charpente",
+      },
+      { property: "og:title", content: "À propos de SAM MECA" },
       {
         property: "og:description",
         content: "Une équipe qualifiée et un parc machines complet au service de vos projets acier.",
+      },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "/a-propos" },
+    ],
+    links: [{ rel: "canonical", href: "/a-propos" }],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          name: "SAM MECA",
+          telephone: "+216 94 358 115",
+          address: {
+            "@type": "PostalAddress",
+            streetAddress: "Barraket Sahel, Route Sidi Hamed",
+            postalCode: "8050",
+            addressLocality: "Hammamet",
+            addressCountry: "TN",
+          },
+        }),
       },
     ],
   }),
   component: Page,
 });
+
 
 const valeurs = [
   { icon: Wrench, t: "Parc machines complet", d: "Découpe plasma, rouleuse, plieuse, perceuse à colonne et postes de soudure." },
@@ -34,7 +60,8 @@ function Page() {
       <section className="surface-steel">
         <div className="mx-auto max-w-7xl px-4 py-16">
           <p className="text-xs font-bold uppercase tracking-[0.3em] text-accent">L'entreprise</p>
-          <h1 className="mt-3 text-4xl font-bold md:text-5xl">L'atelier SAM MECA</h1>
+          <h1 className="mt-3 text-4xl font-bold md:text-5xl">À propos de SAM MECA</h1>
+
           <p className="mt-5 max-w-2xl text-white/75">
             Depuis plus de vingt ans, nous travaillons l'acier pour l'industrie, l'agriculture et le
             bâtiment. Un seul interlocuteur, de l'étude au montage.

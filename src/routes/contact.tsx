@@ -1,25 +1,56 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { Mail, MapPin, Phone, Clock } from "lucide-react";
+import { SITE } from "@/lib/site";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact & devis — SAM MECA" },
+      { title: "Contact & devis — SAM MECA Hammamet" },
       {
         name: "description",
         content:
-          "Contactez l'atelier SAM MECA pour un devis en construction métallique, chaudronnerie, charpente, citernes ou remorques. Réponse sous 48 h.",
+          "Contactez l'atelier SAM MECA à Hammamet pour un devis en construction métallique, chaudronnerie, charpente, citernes ou remorques. Tél. +216 94 358 115.",
+      },
+      {
+        name: "keywords",
+        content: "devis construction métallique, chaudronnerie Hammamet, charpente, citerne, remorque",
       },
       { property: "og:title", content: "Contact & devis — SAM MECA" },
       {
         property: "og:description",
         content: "Décrivez votre projet acier, nous revenons vers vous sous 48 heures.",
       },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "/contact" },
+    ],
+    links: [{ rel: "canonical", href: "/contact" }],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          name: "SAM MECA",
+          description:
+            "Atelier de construction métallique, chaudronnerie, charpente métallique, confection de citernes et de remorques.",
+          telephone: SITE.phone,
+          email: SITE.email,
+          address: {
+            "@type": "PostalAddress",
+            streetAddress: "Barraket Sahel, Route Sidi Hamed",
+            postalCode: "8050",
+            addressLocality: "Hammamet",
+            addressCountry: "TN",
+          },
+          openingHours: "Mo-Sa 08:00-18:00",
+        }),
+      },
     ],
   }),
   component: Page,
 });
+
 
 const services = [
   "Construction métallique",
@@ -137,18 +168,36 @@ function Page() {
           <div className="rule-signal" />
           <ul className="mt-6 space-y-4 text-sm text-muted-foreground">
             <li className="flex gap-3">
-              <MapPin className="h-4 w-4 shrink-0 text-accent" /> Zone industrielle, Tunisie
+              <MapPin className="h-4 w-4 shrink-0 text-accent" />
+              <span>
+                Barraket Sahel, Route Sidi Hamed
+                <br />
+                8050 Hammamet, Tunisie
+              </span>
             </li>
             <li className="flex gap-3">
-              <Phone className="h-4 w-4 shrink-0 text-accent" /> +216 00 000 000
+              <Phone className="h-4 w-4 shrink-0 text-accent" />
+              <a href={SITE.phoneHref} className="hover:text-accent">
+                {SITE.phone}
+              </a>
             </li>
             <li className="flex gap-3">
-              <Mail className="h-4 w-4 shrink-0 text-accent" /> contact@sammeca.com
+              <Mail className="h-4 w-4 shrink-0 text-accent" />
+              <a href={`mailto:${SITE.email}`} className="hover:text-accent">
+                {SITE.email}
+              </a>
             </li>
             <li className="flex gap-3">
-              <Clock className="h-4 w-4 shrink-0 text-accent" /> Lun – Sam : 8h00 – 18h00
+              <Clock className="h-4 w-4 shrink-0 text-accent" /> {SITE.hours}
             </li>
           </ul>
+          <a
+            href={SITE.phoneHref}
+            className="mt-6 flex items-center justify-center gap-2 bg-accent px-5 py-3 text-xs font-bold uppercase text-accent-foreground transition-opacity hover:opacity-90"
+          >
+            <Phone className="h-4 w-4" /> Appeler l'atelier
+          </a>
+
         </aside>
       </section>
     </div>
