@@ -60,7 +60,8 @@ function Page() {
       <section className="surface-steel">
         <div className="mx-auto max-w-7xl px-4 py-16">
           <p className="text-xs font-bold uppercase tracking-[0.3em] text-accent">L'entreprise</p>
-          <h1 className="mt-3 text-4xl font-bold md:text-5xl">L'atelier SAM MECA</h1>
+          <h1 className="mt-3 text-4xl font-bold md:text-5xl">À propos de SAM MECA</h1>
+
           <p className="mt-5 max-w-2xl text-white/75">
             Depuis plus de vingt ans, nous travaillons l'acier pour l'industrie, l'agriculture et le
             bâtiment. Un seul interlocuteur, de l'étude au montage.
