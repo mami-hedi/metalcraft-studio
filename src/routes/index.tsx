@@ -9,21 +9,59 @@ import remorque from "@/assets/remorque.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "SAM MECA — Atelier de construction métallique en Tunisie" },
+      { title: "Construction métallique & chaudronnerie à Hammamet — SAM MECA" },
       {
         name: "description",
         content:
-          "SAM MECA conçoit et fabrique charpentes et constructions métalliques, ouvrages de chaudronnerie, citernes et remorques sur mesure.",
+          "SAM MECA, atelier à Hammamet : construction métallique, charpente métallique, chaudronnerie, confection de citernes et fabrication de remorques sur mesure.",
       },
-      { property: "og:title", content: "SAM MECA — Atelier de construction métallique" },
+      {
+        name: "keywords",
+        content:
+          "construction métallique, chaudronnerie, charpente métallique, citerne, remorque, Hammamet, Tunisie",
+      },
+      { property: "og:title", content: "Construction métallique & chaudronnerie — SAM MECA" },
       {
         property: "og:description",
         content: "Charpente, chaudronnerie, citernes et remorques : de l'étude au montage.",
+      },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "/" },
+    ],
+    links: [{ rel: "canonical", href: "/" }],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          name: "SAM MECA",
+          description:
+            "Atelier de construction métallique, charpente métallique, chaudronnerie, confection de citernes et de remorques.",
+          telephone: "+216 94 358 115",
+          email: "contact@sammeca.com",
+          address: {
+            "@type": "PostalAddress",
+            streetAddress: "Barraket Sahel, Route Sidi Hamed",
+            postalCode: "8050",
+            addressLocality: "Hammamet",
+            addressCountry: "TN",
+          },
+          openingHours: "Mo-Sa 08:00-18:00",
+          makesOffer: [
+            "Construction métallique",
+            "Charpente métallique",
+            "Chaudronnerie",
+            "Confection de citernes",
+            "Fabrication de remorques",
+          ].map((s) => ({ "@type": "Offer", itemOffered: { "@type": "Service", name: s } })),
+        }),
       },
     ],
   }),
   component: Index,
 });
+
 
 const metiers = [
   {
