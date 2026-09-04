@@ -2,7 +2,7 @@ export const SITE = {
   name: "SAM MECA",
   phone: "+216 94 358 115",
   phoneHref: "tel:+21694358115",
-  email: "contact@sammeca.com",
+  email: "commercial@sam-meca.com",
   street: "Barraket Sahel, Route Sidi Hamed",
   postalCode: "8050",
   city: "Hammamet",
