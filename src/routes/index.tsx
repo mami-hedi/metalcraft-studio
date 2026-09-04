@@ -115,7 +115,7 @@ function Index() {
         <div className="absolute inset-0 bg-navy-deep/75" />
         <div className="absolute inset-0 flex items-center">
           <div className="mx-auto w-full max-w-7xl px-4">
-            <p className="text-xs font-bold uppercase tracking-[0.35em] text-accent">
+            <p className="text-xs font-bold uppercase tracking-[0.35em] text-white">
               Atelier de métallerie industrielle
             </p>
             <h1 className="mt-4 max-w-3xl text-4xl font-bold leading-tight text-white md:text-6xl">

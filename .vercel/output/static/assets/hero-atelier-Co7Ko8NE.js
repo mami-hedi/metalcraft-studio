@@ -1,0 +1,1 @@
+var e=`/assets/hero-atelier-CFk3RMTd.jpg`;export{e as t};

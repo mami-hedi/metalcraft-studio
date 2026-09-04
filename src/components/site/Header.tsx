@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useEffect, useRef, useState } from "react";
 import { Menu, X, Phone, ChevronDown } from "lucide-react";
-import logo from "@/assets/logo-sammeca.jpg.asset.json";
+import logo from "@/assets/logo.jpeg";
 import { serviceLinks, SITE } from "@/lib/site";
 
 const mainLinks = [
@@ -34,7 +34,7 @@ export function Header() {
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3">
         <Link to="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
           <img
-            src={logo.url}
+            src={logo}
             alt="SAM MECA — atelier de construction métallique à Hammamet"
             className="h-11 w-auto md:h-12"
           />

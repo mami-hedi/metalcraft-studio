@@ -1,0 +1,1 @@
+var e=`/assets/remorque-EPiZtyll.jpg`;export{e as t};

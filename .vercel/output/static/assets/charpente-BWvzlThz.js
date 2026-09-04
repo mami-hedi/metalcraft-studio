@@ -1,0 +1,1 @@
+var e=`/assets/charpente-CS3FtnEG.jpg`;export{e as t};

@@ -1,0 +1,1 @@
+var e=`/assets/chaudronnerie-BrhScN1N.jpg`;export{e as t};
