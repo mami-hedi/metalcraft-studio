@@ -1,0 +1,1 @@
+var e=`/assets/chaudronnerie1-DA0Vaufg.png`;export{e as t};

@@ -73,7 +73,7 @@ export function ServiceLayout({
         <section className="mx-auto max-w-7xl px-4 py-16">
           <h2 className="text-2xl font-bold text-primary">Galerie</h2>
           <div className="rule-signal" />
-          <div className="mt-8 grid grid-cols-3 gap-4">
+          <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4">
             {gallery.map((src, i) => (
               <img
                 key={i}

@@ -1,0 +1,1 @@
+var e=`/assets/construction-metallique-DE-eWlo4.jpeg`;export{e as t};

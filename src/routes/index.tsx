@@ -11,7 +11,12 @@ import {
   ShieldCheck,
 } from "lucide-react";
 import hero from "@/assets/hero-atelier.jpg";
-import chaudronnerie from "@/assets/chaudronnerie.jpg";
+import Construction from "@/assets/construction-metallique.jpeg";
+import imgp from "@/assets/usinage-fabrication-mecanique-hero.jpg";
+//import chaudronnerie from "@/assets/chaudronnerie1.png";
+
+
+import Chaudronneriee from "@/assets/chaudronnerie1.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -75,28 +80,28 @@ const metiers = [
     label: "Construction métallique",
     icon: Factory,
     text: "Charpentes, structures, passerelles, escaliers et châssis industriels sur mesure.",
-    img: hero,
+    img: Construction,
   },
   {
     to: "/chaudronnerie",
     label: "Chaudronnerie",
     icon: Flame,
     text: "Trémies, goulottes, cuves, réservoirs, vis d'Archimède et équipements sur mesure.",
-    img: chaudronnerie,
+    img: Chaudronneriee,
   },
   {
     to: "/usinage-fabrication-mecanique",
     label: "Fabrication de pièces mécaniques",
     icon: Cog,
     text: "Usinage de précision, fabrication sur mesure selon plans, réparation et modification.",
-    img: hero,
+    img: imgp,
   },
   {
     to: "/maintenance-industrielle",
     label: "Maintenance industrielle",
     icon: Wrench,
     text: "Diagnostic, maintenance préventive et corrective, intervention sur site.",
-    img: chaudronnerie,
+    img: hero,
   },
 ] as const;
 
@@ -149,7 +154,7 @@ function Index() {
         <div className="absolute inset-0 flex items-center">
           <div className="mx-auto w-full max-w-7xl px-4">
             <p className="text-xs font-bold uppercase tracking-[0.35em] text-white">
-              Atelier de métallerie industrielle
+              Entreprise de métallerie industrielle
             </p>
             <h1 className="mt-4 max-w-3xl text-4xl font-bold leading-tight text-white md:text-6xl">
               L'acier travaillé avec précision

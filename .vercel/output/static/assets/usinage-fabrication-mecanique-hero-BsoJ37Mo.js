@@ -1,0 +1,1 @@
+var e=`/assets/usinage-fabrication-mecanique-hero-Ct1FS50Q.jpg`;export{e as t};

@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Wrench, Flame, ShieldCheck } from "lucide-react";
-import img from "@/assets/chaudronnerie.jpg";
+import img from "@/assets/construction-metallique.jpeg";
 import img2 from "@/assets/hero-atelier.jpg";
 
 export const Route = createFileRoute("/atelier")({

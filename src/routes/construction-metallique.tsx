@@ -1,7 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ServiceLayout } from "@/components/site/ServiceLayout";
-import img from "@/assets/hero-atelier.jpg";
-import galleryImg from "@/assets/construction-metallique1.jpeg";
+import img from "@/assets/construction-metallique.jpeg";
+import galleryImg from "@/assets/construction-metallique1.jpg";
+import galleryImg2 from "@/assets/construction-metallique2.png";
+import galleryImg3 from "@/assets/construction-metallique3.png";
 
 export const Route = createFileRoute("/construction-metallique")({
   head: () => ({
@@ -76,7 +78,7 @@ function Page() {
           body: "Châssis et supports industriels fabriqués sur mesure, avec montage directement sur le chantier du client.",
         },
       ]}
-      gallery={Array(9).fill(galleryImg)}
+      gallery={[galleryImg, galleryImg2, galleryImg3]}
     />
   );
 }
