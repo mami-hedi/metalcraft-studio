@@ -5,17 +5,22 @@ import img from "@/assets/chaudronnerie.jpg";
 export const Route = createFileRoute("/chaudronnerie")({
   head: () => ({
     meta: [
-      { title: "Chaudronnerie industrielle acier & inox — SAM MECA" },
+      { title: "Chaudronnerie industrielle sur mesure — SAM MECA" },
       {
         name: "description",
         content:
-          "Chaudronnerie industrielle sur mesure : roulage, pliage, découpe plasma et soudure TIG/MIG sur acier, inox et aluminium.",
+          "Chaudronnerie industrielle sur mesure : trémies, godets, goulottes, cuves et réservoirs industriels, vis d'Archimède, turbines et équipements sur mesure.",
       },
-      { name: "keywords", content: "chaudronnerie, chaudronnerie industrielle, soudure, roulage tôle, inox" },
+      {
+        name: "keywords",
+        content:
+          "chaudronnerie, chaudronnerie industrielle, trémie, goulotte, cuve industrielle, réservoir, vis d'Archimède, turbine",
+      },
       { property: "og:title", content: "Chaudronnerie industrielle — SAM MECA" },
       {
         property: "og:description",
-        content: "Viroles, trémies, tuyauteries et pièces sur plan en acier, inox et aluminium.",
+        content:
+          "Trémies, goulottes, cuves, réservoirs, vis d'Archimède et équipements industriels sur mesure.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/chaudronnerie" },
@@ -31,7 +36,7 @@ export const Route = createFileRoute("/chaudronnerie")({
           provider: { "@type": "Organization", name: "SAM MECA" },
           areaServed: "Tunisie",
           description:
-            "Chaudronnerie acier, inox et aluminium : viroles, trémies, tuyauteries et pièces sur plan.",
+            "Chaudronnerie industrielle sur mesure : trémies, godets, goulottes, cuves, réservoirs, vis d'Archimède, turbines et équipements industriels.",
         }),
       },
     ],
@@ -39,34 +44,33 @@ export const Route = createFileRoute("/chaudronnerie")({
   component: Page,
 });
 
-
 function Page() {
   return (
     <ServiceLayout
-      eyebrow="Métier"
+      eyebrow="Domaine d'intervention"
       title="Chaudronnerie"
-      intro="Notre atelier transforme la tôle en pièces techniques : viroles, trémies, cyclones, tuyauteries et capotages, en acier noir, inox ou aluminium."
+      intro="Notre atelier de chaudronnerie fabrique des équipements industriels sur mesure : trémies, godets, goulottes, cuves et réservoirs, vis d'Archimède et turbines, adaptés aux besoins spécifiques de chaque client."
       image={img}
-      imageAlt="Chaudronnier au travail sur une pièce en acier"
+      imageAlt="Pièces de chaudronnerie industrielle fabriquées en atelier"
       points={[
-        "Découpe plasma et oxycoupage, cisaillage",
-        "Roulage de viroles et pliage jusqu'aux fortes épaisseurs",
-        "Soudure TIG, MIG et à l'arc par soudeurs qualifiés",
-        "Fabrication à l'unité ou en petite série sur plan",
-        "Réparation et maintenance d'équipements existants",
+        "Trémies, godets et goulottes",
+        "Cuves et réservoirs industriels",
+        "Vis d'Archimède, turbines et équipements sur mesure",
+        "Fabrication en acier, inox et aluminium",
+        "Réalisation à l'unité ou en petite série selon plans",
       ]}
       sections={[
         {
-          title: "Tuyauteries & viroles",
-          body: "Conduits, coudes, réductions et brides pour circuits industriels.",
+          title: "Trémies, godets & goulottes",
+          body: "Équipements de manutention et de transfert de matière pour l'industrie et l'agroalimentaire.",
         },
         {
-          title: "Trémies & goulottes",
-          body: "Pièces de manutention pour agroalimentaire, carrières et cimenteries.",
+          title: "Cuves & réservoirs industriels",
+          body: "Fabrication de cuves et réservoirs de stockage adaptés aux exigences de chaque process.",
         },
         {
-          title: "Pièces sur plan",
-          body: "Prototypage et reproduction de pièces à partir de vos plans ou d'un modèle.",
+          title: "Vis d'Archimède & turbines",
+          body: "Équipements mécaniques sur mesure : vis de convoyage, turbines et pièces techniques spécifiques.",
         },
       ]}
     />

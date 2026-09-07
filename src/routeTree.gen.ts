@@ -17,7 +17,9 @@ import { Route as ChaudronnerieRouteImport } from './routes/chaudronnerie'
 import { Route as CiternesRouteImport } from './routes/citernes'
 import { Route as ConstructionMetalliqueRouteImport } from './routes/construction-metallique'
 import { Route as ContactRouteImport } from './routes/contact'
+import { Route as MaintenanceIndustrielleRouteImport } from './routes/maintenance-industrielle'
 import { Route as RemorquesRouteImport } from './routes/remorques'
+import { Route as UsinageFabricationMecaniqueRouteImport } from './routes/usinage-fabrication-mecanique'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -59,11 +61,22 @@ const ContactRoute = ContactRouteImport.update({
   path: '/contact',
   getParentRoute: () => rootRouteImport,
 } as any)
+const MaintenanceIndustrielleRoute = MaintenanceIndustrielleRouteImport.update({
+  id: '/maintenance-industrielle',
+  path: '/maintenance-industrielle',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const RemorquesRoute = RemorquesRouteImport.update({
   id: '/remorques',
   path: '/remorques',
   getParentRoute: () => rootRouteImport,
 } as any)
+const UsinageFabricationMecaniqueRoute =
+  UsinageFabricationMecaniqueRouteImport.update({
+    id: '/usinage-fabrication-mecanique',
+    path: '/usinage-fabrication-mecanique',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -74,7 +87,9 @@ export interface FileRoutesByFullPath {
   '/citernes': typeof CiternesRoute
   '/construction-metallique': typeof ConstructionMetalliqueRoute
   '/contact': typeof ContactRoute
+  '/maintenance-industrielle': typeof MaintenanceIndustrielleRoute
   '/remorques': typeof RemorquesRoute
+  '/usinage-fabrication-mecanique': typeof UsinageFabricationMecaniqueRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -85,7 +100,9 @@ export interface FileRoutesByTo {
   '/citernes': typeof CiternesRoute
   '/construction-metallique': typeof ConstructionMetalliqueRoute
   '/contact': typeof ContactRoute
+  '/maintenance-industrielle': typeof MaintenanceIndustrielleRoute
   '/remorques': typeof RemorquesRoute
+  '/usinage-fabrication-mecanique': typeof UsinageFabricationMecaniqueRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -97,7 +114,9 @@ export interface FileRoutesById {
   '/citernes': typeof CiternesRoute
   '/construction-metallique': typeof ConstructionMetalliqueRoute
   '/contact': typeof ContactRoute
+  '/maintenance-industrielle': typeof MaintenanceIndustrielleRoute
   '/remorques': typeof RemorquesRoute
+  '/usinage-fabrication-mecanique': typeof UsinageFabricationMecaniqueRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -110,7 +129,9 @@ export interface FileRouteTypes {
     | '/citernes'
     | '/construction-metallique'
     | '/contact'
+    | '/maintenance-industrielle'
     | '/remorques'
+    | '/usinage-fabrication-mecanique'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -121,7 +142,9 @@ export interface FileRouteTypes {
     | '/citernes'
     | '/construction-metallique'
     | '/contact'
+    | '/maintenance-industrielle'
     | '/remorques'
+    | '/usinage-fabrication-mecanique'
   id:
     | '__root__'
     | '/'
@@ -132,7 +155,9 @@ export interface FileRouteTypes {
     | '/citernes'
     | '/construction-metallique'
     | '/contact'
+    | '/maintenance-industrielle'
     | '/remorques'
+    | '/usinage-fabrication-mecanique'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -144,7 +169,9 @@ export interface RootRouteChildren {
   CiternesRoute: typeof CiternesRoute
   ConstructionMetalliqueRoute: typeof ConstructionMetalliqueRoute
   ContactRoute: typeof ContactRoute
+  MaintenanceIndustrielleRoute: typeof MaintenanceIndustrielleRoute
   RemorquesRoute: typeof RemorquesRoute
+  UsinageFabricationMecaniqueRoute: typeof UsinageFabricationMecaniqueRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -205,11 +232,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ContactRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/maintenance-industrielle': {
+      id: '/maintenance-industrielle'
+      path: '/maintenance-industrielle'
+      fullPath: '/maintenance-industrielle'
+      preLoaderRoute: typeof MaintenanceIndustrielleRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/remorques': {
       id: '/remorques'
       path: '/remorques'
       fullPath: '/remorques'
       preLoaderRoute: typeof RemorquesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/usinage-fabrication-mecanique': {
+      id: '/usinage-fabrication-mecanique'
+      path: '/usinage-fabrication-mecanique'
+      fullPath: '/usinage-fabrication-mecanique'
+      preLoaderRoute: typeof UsinageFabricationMecaniqueRouteImport
       parentRoute: typeof rootRouteImport
     }
   }
@@ -224,7 +265,9 @@ const rootRouteChildren: RootRouteChildren = {
   CiternesRoute: CiternesRoute,
   ConstructionMetalliqueRoute: ConstructionMetalliqueRoute,
   ContactRoute: ContactRoute,
+  MaintenanceIndustrielleRoute: MaintenanceIndustrielleRoute,
   RemorquesRoute: RemorquesRoute,
+  UsinageFabricationMecaniqueRoute: UsinageFabricationMecaniqueRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

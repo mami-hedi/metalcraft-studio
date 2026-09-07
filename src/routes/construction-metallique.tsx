@@ -9,13 +9,18 @@ export const Route = createFileRoute("/construction-metallique")({
       {
         name: "description",
         content:
-          "Construction métallique : hangars, bâtiments industriels, mezzanines et passerelles en acier. Étude, fabrication et montage par l'atelier SAM MECA.",
+          "Construction métallique : charpentes, structures et ossatures, passerelles, escaliers, châssis et supports industriels. Fabrication et montage sur site par SAM MECA.",
       },
-      { name: "keywords", content: "construction métallique, structure métallique, hangar métallique, mezzanine, atelier métallerie" },
+      {
+        name: "keywords",
+        content:
+          "construction métallique, charpente métallique, structure métallique, passerelle industrielle, châssis, atelier métallerie",
+      },
       { property: "og:title", content: "Construction métallique sur mesure — SAM MECA" },
       {
         property: "og:description",
-        content: "Structures acier clés en main : hangars, mezzanines, passerelles, escaliers.",
+        content:
+          "Structures acier sur mesure : charpentes, passerelles, escaliers, châssis, fabrication et montage.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/construction-metallique" },
@@ -31,7 +36,7 @@ export const Route = createFileRoute("/construction-metallique")({
           provider: { "@type": "Organization", name: "SAM MECA" },
           areaServed: "Tunisie",
           description:
-            "Fabrication et montage de bâtiments industriels, hangars, mezzanines et passerelles en acier.",
+            "Fabrication et montage de charpentes, structures, passerelles, escaliers et châssis métalliques sur mesure selon plans.",
         }),
       },
     ],
@@ -39,34 +44,35 @@ export const Route = createFileRoute("/construction-metallique")({
   component: Page,
 });
 
-
 function Page() {
   return (
     <ServiceLayout
-      eyebrow="Métier"
+      eyebrow="Domaine d'intervention"
       title="Construction métallique"
-      intro="Nous réalisons des ouvrages en acier clés en main : bâtiments industriels, hangars agricoles, mezzanines de stockage, passerelles et escaliers techniques."
+      intro="Nous réalisons des ouvrages en acier sur mesure selon plans : charpentes, structures et ossatures métalliques, passerelles, plateformes, escaliers et châssis industriels — de la fabrication au montage sur site."
       image={img}
-      imageAlt="Bâtiment industriel en construction métallique"
+      imageAlt="Soudeur assemblant une structure métallique sur chantier"
       points={[
-        "Notes de calcul et plans d'exécution avant fabrication",
-        "Profilés IPE, HEA, HEB, tubes et tôles pliées",
-        "Assemblages boulonnés ou soudés selon la portée",
-        "Sablage et peinture anticorrosion en atelier",
-        "Montage sur chantier avec nos équipes et engins de levage",
+        "Charpentes métalliques",
+        "Structures et ossatures métalliques",
+        "Passerelles et plateformes",
+        "Escaliers et garde-corps",
+        "Châssis et supports industriels",
+        "Fabrication et montage sur site",
+        "Réalisation sur mesure selon plans",
       ]}
       sections={[
         {
-          title: "Bâtiments industriels",
-          body: "Ateliers, entrepôts et halls de production avec bardage, couverture et chéneaux.",
+          title: "Charpentes & structures",
+          body: "Charpentes métalliques, structures et ossatures dimensionnées selon les charges et contraintes de chaque ouvrage.",
         },
         {
-          title: "Mezzanines & planchers",
-          body: "Gain de surface immédiat, dimensionnement selon les charges d'exploitation.",
+          title: "Passerelles & accès",
+          body: "Passerelles, plateformes, escaliers et garde-corps pour un accès sûr aux zones techniques et de production.",
         },
         {
-          title: "Ouvrages secondaires",
-          body: "Escaliers, garde-corps, passerelles, supports de machines et auvents.",
+          title: "Châssis & fabrication sur site",
+          body: "Châssis et supports industriels fabriqués sur mesure, avec montage directement sur le chantier du client.",
         },
       ]}
     />

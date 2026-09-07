@@ -1,5 +1,5 @@
 import { r as __toESM } from "../_runtime.mjs";
-import { n as require_react } from "./react+tanstack__react-query.mjs";
+import { r as require_react } from "./react+tanstack__react-query.mjs";
 //#region node_modules/lucide-react/dist/esm/shared/src/utils/mergeClasses.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 /**
@@ -128,21 +128,6 @@ var ArrowRight = createLucideIcon("arrow-right", [["path", {
 * This source code is licensed under the ISC license.
 * See the LICENSE file in the root directory of this source tree.
 */
-var Award = createLucideIcon("award", [["path", {
-	d: "m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526",
-	key: "1yiouv"
-}], ["circle", {
-	cx: "12",
-	cy: "8",
-	r: "6",
-	key: "1vp47v"
-}]]);
-/**
-* @license lucide-react v0.575.0 - ISC
-*
-* This source code is licensed under the ISC license.
-* See the LICENSE file in the root directory of this source tree.
-*/
 var Check = createLucideIcon("check", [["path", {
 	d: "M20 6 9 17l-5-5",
 	key: "1gmf2c"
@@ -246,34 +231,6 @@ var Cog = createLucideIcon("cog", [
 * This source code is licensed under the ISC license.
 * See the LICENSE file in the root directory of this source tree.
 */
-var Container = createLucideIcon("container", [
-	["path", {
-		d: "M22 7.7c0-.6-.4-1.2-.8-1.5l-6.3-3.9a1.72 1.72 0 0 0-1.7 0l-10.3 6c-.5.2-.9.8-.9 1.4v6.6c0 .5.4 1.2.8 1.5l6.3 3.9a1.72 1.72 0 0 0 1.7 0l10.3-6c.5-.3.9-1 .9-1.5Z",
-		key: "1t2lqe"
-	}],
-	["path", {
-		d: "M10 21.9V14L2.1 9.1",
-		key: "o7czzq"
-	}],
-	["path", {
-		d: "m10 14 11.9-6.9",
-		key: "zm5e20"
-	}],
-	["path", {
-		d: "M14 19.8v-8.1",
-		key: "159ecu"
-	}],
-	["path", {
-		d: "M18 17.5V9.4",
-		key: "11uown"
-	}]
-]);
-/**
-* @license lucide-react v0.575.0 - ISC
-*
-* This source code is licensed under the ISC license.
-* See the LICENSE file in the root directory of this source tree.
-*/
 var Factory = createLucideIcon("factory", [
 	["path", {
 		d: "M12 16h.01",
@@ -308,28 +265,10 @@ var Flame = createLucideIcon("flame", [["path", {
 * This source code is licensed under the ISC license.
 * See the LICENSE file in the root directory of this source tree.
 */
-var HardHat = createLucideIcon("hard-hat", [
-	["path", {
-		d: "M10 10V5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v5",
-		key: "1p9q5i"
-	}],
-	["path", {
-		d: "M14 6a6 6 0 0 1 6 6v3",
-		key: "1hnv84"
-	}],
-	["path", {
-		d: "M4 15v-3a6 6 0 0 1 6-6",
-		key: "9ciidu"
-	}],
-	["rect", {
-		x: "2",
-		y: "15",
-		width: "20",
-		height: "4",
-		rx: "1",
-		key: "g3x8cw"
-	}]
-]);
+var Headphones = createLucideIcon("headphones", [["path", {
+	d: "M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3",
+	key: "1xhozi"
+}]]);
 /**
 * @license lucide-react v0.575.0 - ISC
 *
@@ -388,30 +327,6 @@ var Menu = createLucideIcon("menu", [
 * This source code is licensed under the ISC license.
 * See the LICENSE file in the root directory of this source tree.
 */
-var PaintBucket = createLucideIcon("paint-bucket", [
-	["path", {
-		d: "M11 7 6 2",
-		key: "1jwth8"
-	}],
-	["path", {
-		d: "M18.992 12H2.041",
-		key: "xw1gg"
-	}],
-	["path", {
-		d: "M21.145 18.38A3.34 3.34 0 0 1 20 16.5a3.3 3.3 0 0 1-1.145 1.88c-.575.46-.855 1.02-.855 1.595A2 2 0 0 0 20 22a2 2 0 0 0 2-2.025c0-.58-.285-1.13-.855-1.595",
-		key: "1nkol4"
-	}],
-	["path", {
-		d: "m8.5 4.5 2.148-2.148a1.205 1.205 0 0 1 1.704 0l7.296 7.296a1.205 1.205 0 0 1 0 1.704l-7.592 7.592a3.615 3.615 0 0 1-5.112 0l-3.888-3.888a3.615 3.615 0 0 1 0-5.112L5.67 7.33",
-		key: "1nk1rd"
-	}]
-]);
-/**
-* @license lucide-react v0.575.0 - ISC
-*
-* This source code is licensed under the ISC license.
-* See the LICENSE file in the root directory of this source tree.
-*/
 var Phone = createLucideIcon("phone", [["path", {
 	d: "M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384",
 	key: "9njp5v"
@@ -450,38 +365,6 @@ var Ruler = createLucideIcon("ruler", [
 * This source code is licensed under the ISC license.
 * See the LICENSE file in the root directory of this source tree.
 */
-var Scissors = createLucideIcon("scissors", [
-	["circle", {
-		cx: "6",
-		cy: "6",
-		r: "3",
-		key: "1lh9wr"
-	}],
-	["path", {
-		d: "M8.12 8.12 12 12",
-		key: "1alkpv"
-	}],
-	["path", {
-		d: "M20 4 8.12 15.88",
-		key: "xgtan2"
-	}],
-	["circle", {
-		cx: "6",
-		cy: "18",
-		r: "3",
-		key: "fqmcym"
-	}],
-	["path", {
-		d: "M14.8 14.8 20 20",
-		key: "ptml3r"
-	}]
-]);
-/**
-* @license lucide-react v0.575.0 - ISC
-*
-* This source code is licensed under the ISC license.
-* See the LICENSE file in the root directory of this source tree.
-*/
 var ShieldCheck = createLucideIcon("shield-check", [["path", {
 	d: "M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z",
 	key: "oel41y"
@@ -489,38 +372,6 @@ var ShieldCheck = createLucideIcon("shield-check", [["path", {
 	d: "m9 12 2 2 4-4",
 	key: "dzmm74"
 }]]);
-/**
-* @license lucide-react v0.575.0 - ISC
-*
-* This source code is licensed under the ISC license.
-* See the LICENSE file in the root directory of this source tree.
-*/
-var Truck = createLucideIcon("truck", [
-	["path", {
-		d: "M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2",
-		key: "wrbu53"
-	}],
-	["path", {
-		d: "M15 18H9",
-		key: "1lyqi6"
-	}],
-	["path", {
-		d: "M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14",
-		key: "lysw3i"
-	}],
-	["circle", {
-		cx: "17",
-		cy: "18",
-		r: "2",
-		key: "332jqn"
-	}],
-	["circle", {
-		cx: "7",
-		cy: "18",
-		r: "2",
-		key: "19iecd"
-	}]
-]);
 /**
 * @license lucide-react v0.575.0 - ISC
 *
@@ -571,4 +422,4 @@ var X = createLucideIcon("x", [["path", {
 	key: "d8bk6v"
 }]]);
 //#endregion
-export { ArrowRight as S, Cog as _, ShieldCheck as a, Check as b, Phone as c, MapPin as d, Mail as f, Container as g, Factory as h, Truck as i, PaintBucket as l, Flame as m, Wrench as n, Scissors as o, HardHat as p, Users as r, Ruler as s, X as t, Menu as u, Clock as v, Award as x, ChevronDown as y };
+export { ArrowRight as _, Ruler as a, MapPin as c, Flame as d, Factory as f, Check as g, ChevronDown as h, ShieldCheck as i, Mail as l, Clock as m, Wrench as n, Phone as o, Cog as p, Users as r, Menu as s, X as t, Headphones as u };

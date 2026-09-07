@@ -1,1 +1,0 @@
-var e=`/assets/citerne-BHXqSmtt.jpg`;export{e as t};

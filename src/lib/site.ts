@@ -14,8 +14,7 @@ export const ADDRESS_LINE = `${SITE.street}, ${SITE.postalCode} ${SITE.city}, ${
 
 export const serviceLinks = [
   { to: "/construction-metallique", label: "Construction métallique" },
-  { to: "/charpente-metallique", label: "Charpente métallique" },
   { to: "/chaudronnerie", label: "Chaudronnerie" },
-  { to: "/citernes", label: "Confection de citernes" },
-  { to: "/remorques", label: "Remorques" },
+  { to: "/usinage-fabrication-mecanique", label: "Fabrication de pièces mécaniques" },
+  { to: "/maintenance-industrielle", label: "Maintenance industrielle" },
 ] as const;
