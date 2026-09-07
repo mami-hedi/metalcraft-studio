@@ -1,7 +1,7 @@
 import { t as chaudronnerie_default } from "./chaudronnerie-LxDWvHDp.mjs";
 import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.mjs";
-import { t as ServiceLayout } from "./ServiceLayout-BVsZT3Ht.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/maintenance-industrielle-CjhdQ5_-.js
+import { t as ServiceLayout } from "./ServiceLayout-DEfmRVow.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/maintenance-industrielle-B1mIT6X-.js
 var import_jsx_runtime = require_jsx_runtime();
 function Page() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ServiceLayout, {

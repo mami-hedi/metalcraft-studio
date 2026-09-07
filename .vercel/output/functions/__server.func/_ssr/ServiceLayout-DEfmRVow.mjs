@@ -1,9 +1,9 @@
 import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.mjs";
 import { h as Link } from "../_libs/@tanstack/react-router+[...].mjs";
 import { g as Check } from "../_libs/lucide-react.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/ServiceLayout-BVsZT3Ht.js
+//#region node_modules/.nitro/vite/services/ssr/assets/ServiceLayout-DEfmRVow.js
 var import_jsx_runtime = require_jsx_runtime();
-function ServiceLayout({ eyebrow, title, intro, image, imageAlt, points, sections, children }) {
+function ServiceLayout({ eyebrow, title, intro, image, imageAlt, points, sections, gallery, children }) {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
 		/* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
 			className: "surface-steel",
@@ -64,6 +64,27 @@ function ServiceLayout({ eyebrow, title, intro, image, imageAlt, points, section
 					})]
 				}, s.title))
 			})
+		}),
+		gallery && gallery.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
+			className: "mx-auto max-w-7xl px-4 py-16",
+			children: [
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+					className: "text-2xl font-bold text-primary",
+					children: "Galerie"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "rule-signal" }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+					className: "mt-8 grid grid-cols-3 gap-4",
+					children: gallery.map((src, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+						src,
+						alt: `${title} — réalisation ${i + 1}`,
+						loading: "lazy",
+						width: 600,
+						height: 600,
+						className: "aspect-square w-full object-cover"
+					}, i))
+				})
+			]
 		}),
 		children,
 		/* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {

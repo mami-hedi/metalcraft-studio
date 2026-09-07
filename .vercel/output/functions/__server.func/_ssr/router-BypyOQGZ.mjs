@@ -4,10 +4,10 @@ import { c as HeadContent, d as Outlet, f as lazyRouteComponent, g as useRouter,
 import { c as MapPin, h as ChevronDown, l as Mail, o as Phone, s as Menu, t as X } from "../_libs/lucide-react.mjs";
 import { n as serviceLinks, t as SITE } from "./site-Zp2OqwdD.mjs";
 import { t as QueryClient } from "../_libs/tanstack__query-core.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-Cyvg0C7w.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-BypyOQGZ.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
-var styles_default = "/assets/styles-Col2l8SW.css";
+var styles_default = "/assets/styles-CU1acaZa.css";
 function reportLovableError(error, context = {}) {
 	if (typeof window === "undefined") return;
 	window.__lovableEvents?.captureException?.(error, {
@@ -558,7 +558,7 @@ var Route$8 = createFileRoute("/atelier")({
 	}),
 	component: lazyRouteComponent($$splitComponentImporter$8, "component")
 });
-var $$splitComponentImporter$7 = () => import("./charpente-metallique-ixWIF_3J.mjs");
+var $$splitComponentImporter$7 = () => import("./charpente-metallique-gCVv9Y_j.mjs");
 var Route$7 = createFileRoute("/charpente-metallique")({
 	head: () => ({
 		meta: [
@@ -609,7 +609,7 @@ var Route$7 = createFileRoute("/charpente-metallique")({
 	}),
 	component: lazyRouteComponent($$splitComponentImporter$7, "component")
 });
-var $$splitComponentImporter$6 = () => import("./chaudronnerie-n-TveqXe.mjs");
+var $$splitComponentImporter$6 = () => import("./chaudronnerie-JbMQsy_r.mjs");
 var Route$6 = createFileRoute("/chaudronnerie")({
 	head: () => ({
 		meta: [
@@ -660,7 +660,7 @@ var Route$6 = createFileRoute("/chaudronnerie")({
 	}),
 	component: lazyRouteComponent($$splitComponentImporter$6, "component")
 });
-var $$splitComponentImporter$5 = () => import("./citernes-BwuIOr51.mjs");
+var $$splitComponentImporter$5 = () => import("./citernes-BS9nrwwT.mjs");
 var Route$5 = createFileRoute("/citernes")({
 	head: () => ({
 		meta: [
@@ -711,7 +711,7 @@ var Route$5 = createFileRoute("/citernes")({
 	}),
 	component: lazyRouteComponent($$splitComponentImporter$5, "component")
 });
-var $$splitComponentImporter$4 = () => import("./construction-metallique-DDcRNfFE.mjs");
+var $$splitComponentImporter$4 = () => import("./construction-metallique-Cmy8w90x.mjs");
 var Route$4 = createFileRoute("/construction-metallique")({
 	head: () => ({
 		meta: [
@@ -818,7 +818,7 @@ var Route$3 = createFileRoute("/contact")({
 	}),
 	component: lazyRouteComponent($$splitComponentImporter$3, "component")
 });
-var $$splitComponentImporter$2 = () => import("./maintenance-industrielle-CjhdQ5_-.mjs");
+var $$splitComponentImporter$2 = () => import("./maintenance-industrielle-B1mIT6X-.mjs");
 var Route$2 = createFileRoute("/maintenance-industrielle")({
 	head: () => ({
 		meta: [
@@ -869,7 +869,7 @@ var Route$2 = createFileRoute("/maintenance-industrielle")({
 	}),
 	component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-var $$splitComponentImporter$1 = () => import("./remorques-B2gmdAbD.mjs");
+var $$splitComponentImporter$1 = () => import("./remorques-DbhKvXZm.mjs");
 var Route$1 = createFileRoute("/remorques")({
 	head: () => ({
 		meta: [
@@ -920,7 +920,7 @@ var Route$1 = createFileRoute("/remorques")({
 	}),
 	component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
-var $$splitComponentImporter = () => import("./usinage-fabrication-mecanique-CC6G3WAv.mjs");
+var $$splitComponentImporter = () => import("./usinage-fabrication-mecanique-TF_4I9C8.mjs");
 var Route = createFileRoute("/usinage-fabrication-mecanique")({
 	head: () => ({
 		meta: [

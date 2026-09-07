@@ -1,6 +1,6 @@
 import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.mjs";
-import { t as ServiceLayout } from "./ServiceLayout-BVsZT3Ht.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/citernes-BwuIOr51.js
+import { t as ServiceLayout } from "./ServiceLayout-DEfmRVow.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/citernes-BS9nrwwT.js
 var import_jsx_runtime = require_jsx_runtime();
 var citerne_default = "/assets/citerne-BHXqSmtt.jpg";
 function Page() {

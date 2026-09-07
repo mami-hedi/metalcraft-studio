@@ -1,6 +1,6 @@
 import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.mjs";
-import { t as ServiceLayout } from "./ServiceLayout-BVsZT3Ht.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/charpente-metallique-ixWIF_3J.js
+import { t as ServiceLayout } from "./ServiceLayout-DEfmRVow.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/charpente-metallique-gCVv9Y_j.js
 var import_jsx_runtime = require_jsx_runtime();
 var charpente_default = "/assets/charpente-CS3FtnEG.jpg";
 function Page() {

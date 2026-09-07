@@ -1,4 +1,4 @@
-//#region node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-B_WFWNLB.js
+//#region node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-a8lybXhM.js
 var tsrStartManifest = () => ({ routes: {
 	__root__: {
 		filePath: "D:/Projects/metalcraft-studio/src/routes/__root.tsx",
@@ -15,21 +15,21 @@ var tsrStartManifest = () => ({ routes: {
 			"/remorques",
 			"/usinage-fabrication-mecanique"
 		],
-		preloads: ["/assets/index-DWA894co.js"],
+		preloads: ["/assets/index-CoqtGn6X.js"],
 		scripts: [{ attrs: {
 			type: "module",
 			async: !0,
-			src: "/assets/index-DWA894co.js"
+			src: "/assets/index-CoqtGn6X.js"
 		} }]
 	},
 	"/": {
 		filePath: "D:/Projects/metalcraft-studio/src/routes/index.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/routes-CC_SgPZf.js",
-			"/assets/users-C_voe5lT.js",
-			"/assets/wrench-BbRoFWom.js",
-			"/assets/shield-check-B_vGr_SL.js",
+			"/assets/routes-DMtx5nhv.js",
+			"/assets/users-Cv4aHBNP.js",
+			"/assets/wrench--1fx5ghL.js",
+			"/assets/shield-check-CIb5zHVa.js",
 			"/assets/chaudronnerie-BohFZDxj.js",
 			"/assets/hero-atelier-Co7Ko8NE.js"
 		]
@@ -38,9 +38,9 @@ var tsrStartManifest = () => ({ routes: {
 		filePath: "D:/Projects/metalcraft-studio/src/routes/a-propos.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/a-propos-BQQ2O3xk.js",
-			"/assets/users-C_voe5lT.js",
-			"/assets/wrench-BbRoFWom.js",
+			"/assets/a-propos-CsRGKFCs.js",
+			"/assets/users-Cv4aHBNP.js",
+			"/assets/wrench--1fx5ghL.js",
 			"/assets/chaudronnerie-BohFZDxj.js"
 		]
 	},
@@ -48,9 +48,9 @@ var tsrStartManifest = () => ({ routes: {
 		filePath: "D:/Projects/metalcraft-studio/src/routes/atelier.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/atelier-2NBQm1a7.js",
-			"/assets/wrench-BbRoFWom.js",
-			"/assets/shield-check-B_vGr_SL.js",
+			"/assets/atelier-DvdpeuOV.js",
+			"/assets/wrench--1fx5ghL.js",
+			"/assets/shield-check-CIb5zHVa.js",
 			"/assets/chaudronnerie-BohFZDxj.js",
 			"/assets/hero-atelier-Co7Ko8NE.js"
 		]
@@ -58,56 +58,56 @@ var tsrStartManifest = () => ({ routes: {
 	"/charpente-metallique": {
 		filePath: "D:/Projects/metalcraft-studio/src/routes/charpente-metallique.tsx",
 		children: void 0,
-		preloads: ["/assets/charpente-metallique-CIySw_Mz.js", "/assets/ServiceLayout-BnktpSDU.js"]
+		preloads: ["/assets/charpente-metallique-o-HylgI1.js", "/assets/ServiceLayout-C0Vf68xU.js"]
 	},
 	"/chaudronnerie": {
 		filePath: "D:/Projects/metalcraft-studio/src/routes/chaudronnerie.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/chaudronnerie-Dij13wd7.js",
-			"/assets/ServiceLayout-BnktpSDU.js",
+			"/assets/chaudronnerie-C_Mn8ATK.js",
+			"/assets/ServiceLayout-C0Vf68xU.js",
 			"/assets/chaudronnerie-BohFZDxj.js"
 		]
 	},
 	"/citernes": {
 		filePath: "D:/Projects/metalcraft-studio/src/routes/citernes.tsx",
 		children: void 0,
-		preloads: ["/assets/citernes-B-NouNlp.js", "/assets/ServiceLayout-BnktpSDU.js"]
+		preloads: ["/assets/citernes-BQOowNSW.js", "/assets/ServiceLayout-C0Vf68xU.js"]
 	},
 	"/construction-metallique": {
 		filePath: "D:/Projects/metalcraft-studio/src/routes/construction-metallique.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/construction-metallique-TbQ_RpXl.js",
-			"/assets/ServiceLayout-BnktpSDU.js",
+			"/assets/construction-metallique-CDWd42H7.js",
+			"/assets/ServiceLayout-C0Vf68xU.js",
 			"/assets/hero-atelier-Co7Ko8NE.js"
 		]
 	},
 	"/contact": {
 		filePath: "D:/Projects/metalcraft-studio/src/routes/contact.tsx",
 		children: void 0,
-		preloads: ["/assets/contact-DvTFfVdp.js"]
+		preloads: ["/assets/contact-DRidurfr.js"]
 	},
 	"/maintenance-industrielle": {
 		filePath: "D:/Projects/metalcraft-studio/src/routes/maintenance-industrielle.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/maintenance-industrielle-uiZmZrPn.js",
-			"/assets/ServiceLayout-BnktpSDU.js",
+			"/assets/maintenance-industrielle-20o3m7G7.js",
+			"/assets/ServiceLayout-C0Vf68xU.js",
 			"/assets/chaudronnerie-BohFZDxj.js"
 		]
 	},
 	"/remorques": {
 		filePath: "D:/Projects/metalcraft-studio/src/routes/remorques.tsx",
 		children: void 0,
-		preloads: ["/assets/remorques-CKsM4obC.js", "/assets/ServiceLayout-BnktpSDU.js"]
+		preloads: ["/assets/remorques-C9ltWXjb.js", "/assets/ServiceLayout-C0Vf68xU.js"]
 	},
 	"/usinage-fabrication-mecanique": {
 		filePath: "D:/Projects/metalcraft-studio/src/routes/usinage-fabrication-mecanique.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/usinage-fabrication-mecanique-Duro7ogE.js",
-			"/assets/ServiceLayout-BnktpSDU.js",
+			"/assets/usinage-fabrication-mecanique-C2TbDnFn.js",
+			"/assets/ServiceLayout-C0Vf68xU.js",
 			"/assets/hero-atelier-Co7Ko8NE.js"
 		]
 	}
