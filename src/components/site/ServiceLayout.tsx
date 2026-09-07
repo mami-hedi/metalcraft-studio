@@ -10,6 +10,7 @@ type Props = {
   imageAlt: string;
   points: string[];
   sections: { title: string; body: string }[];
+  gallery?: string[];
   children?: ReactNode;
 };
 
@@ -21,6 +22,7 @@ export function ServiceLayout({
   imageAlt,
   points,
   sections,
+  gallery,
   children,
 }: Props) {
   return (
@@ -66,6 +68,26 @@ export function ServiceLayout({
           ))}
         </div>
       </section>
+
+      {gallery && gallery.length > 0 && (
+        <section className="mx-auto max-w-7xl px-4 py-16">
+          <h2 className="text-2xl font-bold text-primary">Galerie</h2>
+          <div className="rule-signal" />
+          <div className="mt-8 grid grid-cols-3 gap-4">
+            {gallery.map((src, i) => (
+              <img
+                key={i}
+                src={src}
+                alt={`${title} — réalisation ${i + 1}`}
+                loading="lazy"
+                width={600}
+                height={600}
+                className="aspect-square w-full object-cover"
+              />
+            ))}
+          </div>
+        </section>
+      )}
 
       {children}
 

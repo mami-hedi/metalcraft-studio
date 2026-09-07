@@ -73,6 +73,8 @@ function Page() {
           body: "Équipements mécaniques sur mesure : vis de convoyage, turbines et pièces techniques spécifiques.",
         },
       ]}
+      gallery={Array(9).fill(img)}
+      //gallery={[photo1, photo2, photo3, photo4, photo5, photo6, photo7, photo8, photo9]}//
     />
   );
 }

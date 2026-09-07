@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ServiceLayout } from "@/components/site/ServiceLayout";
 import img from "@/assets/hero-atelier.jpg";
+import galleryImg from "@/assets/usinage-fabrication-mecanique1.jpeg";
 
 export const Route = createFileRoute("/usinage-fabrication-mecanique")({
   head: () => ({
@@ -73,6 +74,7 @@ function Page() {
           body: "Reprise, réparation ou modification de pièces existantes pour prolonger la durée de vie de vos équipements.",
         },
       ]}
+      gallery={Array(9).fill(galleryImg)}
     />
   );
 }
