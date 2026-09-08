@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ServiceLayout } from "@/components/site/ServiceLayout";
 import img from "@/assets/usinage-fabrication-mecanique-hero.jpg";
-import galleryImg from "@/assets/usinage-fabrication-mecanique1.jpeg";
+import galleryImg from "@/assets/usinage-fabrication-mecanique1.jpg";
 import galleryImg2 from "@/assets/usinage-fabrication-mecanique2.jpg";
 import galleryImg3 from "@/assets/usinage-fabrication-mecanique3.jpg";
 

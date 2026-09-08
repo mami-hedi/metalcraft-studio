@@ -1,8 +1,8 @@
 import { t as chaudronnerie_default } from "./chaudronnerie-LxDWvHDp.mjs";
 import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.mjs";
-import { t as maintenceindustrielle1_default } from "./maintenceindustrielle1-G_Iiy-hy.mjs";
+import { t as maintenceindustrielle1_default } from "./maintenceindustrielle1-BJTE4I_i.mjs";
 import { t as ServiceLayout } from "./ServiceLayout-BeegndSO.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/maintenance-industrielle-DSLntdfy.js
+//#region node_modules/.nitro/vite/services/ssr/assets/maintenance-industrielle-DiVFP5AX.js
 var import_jsx_runtime = require_jsx_runtime();
 var maintenceindustrielle2_default = "/assets/maintenceindustrielle2-Cl9Lv4pB.jpg";
 function Page() {

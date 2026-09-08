@@ -1,0 +1,1 @@
+var e=`/assets/maintenceindustrielle1-LqniRzu1.jpg`;export{e as t};

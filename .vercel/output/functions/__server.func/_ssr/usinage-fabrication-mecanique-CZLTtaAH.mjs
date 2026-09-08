@@ -2,9 +2,9 @@ import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.m
 import { t as usinage_fabrication_mecanique2_default } from "./usinage-fabrication-mecanique2-zRrF0xCL.mjs";
 import { t as ServiceLayout } from "./ServiceLayout-BeegndSO.mjs";
 import { t as usinage_fabrication_mecanique_hero_default } from "./usinage-fabrication-mecanique-hero-DiBj3UZv.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/usinage-fabrication-mecanique-C7tjvstt.js
+//#region node_modules/.nitro/vite/services/ssr/assets/usinage-fabrication-mecanique-CZLTtaAH.js
 var import_jsx_runtime = require_jsx_runtime();
-var usinage_fabrication_mecanique1_default = "/assets/usinage-fabrication-mecanique1-CrYeaTez.jpeg";
+var usinage_fabrication_mecanique1_default = "/assets/usinage-fabrication-mecanique1-DQ_TbO9y.jpg";
 var usinage_fabrication_mecanique3_default = "/assets/usinage-fabrication-mecanique3-C1LsUcE_.jpg";
 function Page() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ServiceLayout, {

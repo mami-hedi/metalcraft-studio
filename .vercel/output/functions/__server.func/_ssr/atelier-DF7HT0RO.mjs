@@ -2,9 +2,9 @@ import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.m
 import { d as Flame, i as ShieldCheck, n as Wrench } from "../_libs/lucide-react.mjs";
 import { t as construction_metallique_default } from "./construction-metallique-CC0PuN1X.mjs";
 import { t as hero_atelier_default } from "./hero-atelier-C7Ig9aK7.mjs";
-import { t as maintenceindustrielle1_default } from "./maintenceindustrielle1-G_Iiy-hy.mjs";
+import { t as maintenceindustrielle1_default } from "./maintenceindustrielle1-BJTE4I_i.mjs";
 import { t as usinage_fabrication_mecanique2_default } from "./usinage-fabrication-mecanique2-zRrF0xCL.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/atelier-CkNmkhpR.js
+//#region node_modules/.nitro/vite/services/ssr/assets/atelier-DF7HT0RO.js
 var import_jsx_runtime = require_jsx_runtime();
 var usinage = [
 	"Fraiseuse aléseuse vernier",
