@@ -1,8 +1,10 @@
 import { t as chaudronnerie_default } from "./chaudronnerie-LxDWvHDp.mjs";
 import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.mjs";
+import { t as maintenceindustrielle1_default } from "./maintenceindustrielle1-G_Iiy-hy.mjs";
 import { t as ServiceLayout } from "./ServiceLayout-BeegndSO.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/maintenance-industrielle-B2g4raV7.js
+//#region node_modules/.nitro/vite/services/ssr/assets/maintenance-industrielle-DSLntdfy.js
 var import_jsx_runtime = require_jsx_runtime();
+var maintenceindustrielle2_default = "/assets/maintenceindustrielle2-Cl9Lv4pB.jpg";
 function Page() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ServiceLayout, {
 		eyebrow: "Domaine d'intervention",
@@ -31,7 +33,8 @@ function Page() {
 				title: "Montage, démontage & intervention sur site",
 				body: "Équipes mobiles pour le montage, démontage et la maintenance directement chez le client, afin de limiter les arrêts de production."
 			}
-		]
+		],
+		gallery: [maintenceindustrielle1_default, maintenceindustrielle2_default]
 	});
 }
 //#endregion

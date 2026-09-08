@@ -1,6 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ServiceLayout } from "@/components/site/ServiceLayout";
 import img from "@/assets/chaudronnerie.jpg";
+import img1 from "@/assets/maintenceindustrielle1.jpg";
+import img2 from "@/assets/maintenceindustrielle2.jpg";
 
 export const Route = createFileRoute("/maintenance-industrielle")({
   head: () => ({
@@ -74,6 +76,7 @@ function Page() {
           body: "Équipes mobiles pour le montage, démontage et la maintenance directement chez le client, afin de limiter les arrêts de production.",
         },
       ]}
+      gallery={[img1, img2 ]}
     />
   );
 }

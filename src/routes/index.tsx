@@ -13,6 +13,7 @@ import {
 import hero from "@/assets/hero-atelier.jpg";
 import Construction from "@/assets/construction-metallique.jpeg";
 import imgp from "@/assets/usinage-fabrication-mecanique-hero.jpg";
+import img1 from "@/assets/maintenceindustrielle1.jpg";
 //import chaudronnerie from "@/assets/chaudronnerie1.png";
 
 
@@ -101,7 +102,7 @@ const metiers = [
     label: "Maintenance industrielle",
     icon: Wrench,
     text: "Diagnostic, maintenance préventive et corrective, intervention sur site.",
-    img: hero,
+    img: img1,
   },
 ] as const;
 

@@ -1,0 +1,1 @@
+var e=`/assets/usinage-fabrication-mecanique2-BqZNyld_.jpg`;export{e as t};

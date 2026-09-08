@@ -1,6 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ServiceLayout } from "@/components/site/ServiceLayout";
 import img from "@/assets/chaudronnerie1.png";
+import img1 from "@/assets/sam-meca-ch.jpg";
+import img2 from "@/assets/sam-meca-ch2.jpg";
 
 
 export const Route = createFileRoute("/chaudronnerie")({
@@ -74,8 +76,8 @@ function Page() {
           body: "Équipements mécaniques sur mesure : vis de convoyage, turbines et pièces techniques spécifiques.",
         },
       ]}
-      gallery={Array(3).fill(img)}
-      //gallery={[photo1, photo2, photo3, photo4, photo5, photo6, photo7, photo8, photo9]}//
+      
+      gallery={[img, img1, img2]}//
     />
   );
 }

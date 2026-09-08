@@ -1,10 +1,11 @@
 import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.mjs";
+import { t as usinage_fabrication_mecanique2_default } from "./usinage-fabrication-mecanique2-zRrF0xCL.mjs";
 import { t as ServiceLayout } from "./ServiceLayout-BeegndSO.mjs";
 import { t as usinage_fabrication_mecanique_hero_default } from "./usinage-fabrication-mecanique-hero-DiBj3UZv.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/usinage-fabrication-mecanique-CoMvDZaL.js
+//#region node_modules/.nitro/vite/services/ssr/assets/usinage-fabrication-mecanique-C7tjvstt.js
 var import_jsx_runtime = require_jsx_runtime();
 var usinage_fabrication_mecanique1_default = "/assets/usinage-fabrication-mecanique1-CrYeaTez.jpeg";
-var usinage_fabrication_mecanique2_default = "/assets/usinage-fabrication-mecanique2-BqZNyld_.jpg";
+var usinage_fabrication_mecanique3_default = "/assets/usinage-fabrication-mecanique3-C1LsUcE_.jpg";
 function Page() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ServiceLayout, {
 		eyebrow: "Domaine d'intervention",
@@ -33,7 +34,11 @@ function Page() {
 				body: "Reprise, réparation ou modification de pièces existantes pour prolonger la durée de vie de vos équipements."
 			}
 		],
-		gallery: [usinage_fabrication_mecanique1_default, usinage_fabrication_mecanique2_default]
+		gallery: [
+			usinage_fabrication_mecanique1_default,
+			usinage_fabrication_mecanique2_default,
+			usinage_fabrication_mecanique3_default
+		]
 	});
 }
 //#endregion

@@ -4,7 +4,7 @@ import { c as HeadContent, d as Outlet, f as lazyRouteComponent, g as useRouter,
 import { c as MapPin, h as ChevronDown, l as Mail, o as Phone, s as Menu, t as X } from "../_libs/lucide-react.mjs";
 import { n as serviceLinks, t as SITE } from "./site-Zp2OqwdD.mjs";
 import { t as QueryClient } from "../_libs/tanstack__query-core.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-C0Ok5l0N.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-DgIqe6Sb.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var styles_default = "/assets/styles-IoflY-ym.css";
@@ -400,7 +400,7 @@ function RootComponent() {
 		})
 	});
 }
-var $$splitComponentImporter$10 = () => import("./routes-Cs0CodE6.mjs");
+var $$splitComponentImporter$10 = () => import("./routes-BsUZewsY.mjs");
 var Route$10 = createFileRoute("/")({
 	head: () => ({
 		meta: [
@@ -521,7 +521,7 @@ var Route$9 = createFileRoute("/a-propos")({
 	}),
 	component: lazyRouteComponent($$splitComponentImporter$9, "component")
 });
-var $$splitComponentImporter$8 = () => import("./atelier-Cd8yvbSV.mjs");
+var $$splitComponentImporter$8 = () => import("./atelier-CkNmkhpR.mjs");
 var Route$8 = createFileRoute("/atelier")({
 	head: () => ({
 		meta: [
@@ -609,7 +609,7 @@ var Route$7 = createFileRoute("/charpente-metallique")({
 	}),
 	component: lazyRouteComponent($$splitComponentImporter$7, "component")
 });
-var $$splitComponentImporter$6 = () => import("./chaudronnerie-yGPVVs4e.mjs");
+var $$splitComponentImporter$6 = () => import("./chaudronnerie-DzM-k-WJ.mjs");
 var Route$6 = createFileRoute("/chaudronnerie")({
 	head: () => ({
 		meta: [
@@ -818,7 +818,7 @@ var Route$3 = createFileRoute("/contact")({
 	}),
 	component: lazyRouteComponent($$splitComponentImporter$3, "component")
 });
-var $$splitComponentImporter$2 = () => import("./maintenance-industrielle-B2g4raV7.mjs");
+var $$splitComponentImporter$2 = () => import("./maintenance-industrielle-DSLntdfy.mjs");
 var Route$2 = createFileRoute("/maintenance-industrielle")({
 	head: () => ({
 		meta: [
@@ -920,7 +920,7 @@ var Route$1 = createFileRoute("/remorques")({
 	}),
 	component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
-var $$splitComponentImporter = () => import("./usinage-fabrication-mecanique-CoMvDZaL.mjs");
+var $$splitComponentImporter = () => import("./usinage-fabrication-mecanique-C7tjvstt.mjs");
 var Route = createFileRoute("/usinage-fabrication-mecanique")({
 	head: () => ({
 		meta: [

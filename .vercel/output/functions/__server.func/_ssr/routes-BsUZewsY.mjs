@@ -3,9 +3,10 @@ import { h as Link } from "../_libs/@tanstack/react-router+[...].mjs";
 import { _ as ArrowRight, a as Ruler, d as Flame, f as Factory, i as ShieldCheck, n as Wrench, p as Cog, r as Users, u as Headphones } from "../_libs/lucide-react.mjs";
 import { t as construction_metallique_default } from "./construction-metallique-CC0PuN1X.mjs";
 import { t as hero_atelier_default } from "./hero-atelier-C7Ig9aK7.mjs";
+import { t as maintenceindustrielle1_default } from "./maintenceindustrielle1-G_Iiy-hy.mjs";
 import { t as chaudronnerie1_default } from "./chaudronnerie1-CXFgRrMv.mjs";
 import { t as usinage_fabrication_mecanique_hero_default } from "./usinage-fabrication-mecanique-hero-DiBj3UZv.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-Cs0CodE6.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-BsUZewsY.js
 var import_jsx_runtime = require_jsx_runtime();
 var metiers = [
 	{
@@ -34,7 +35,7 @@ var metiers = [
 		label: "Maintenance industrielle",
 		icon: Wrench,
 		text: "Diagnostic, maintenance préventive et corrective, intervention sur site.",
-		img: hero_atelier_default
+		img: maintenceindustrielle1_default
 	}
 ];
 var engagements = [{

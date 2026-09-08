@@ -2,6 +2,8 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Wrench, Flame, ShieldCheck } from "lucide-react";
 import img from "@/assets/construction-metallique.jpeg";
 import img2 from "@/assets/hero-atelier.jpg";
+import img1 from "@/assets/maintenceindustrielle1.jpg";
+import galleryImg2 from "@/assets/usinage-fabrication-mecanique2.jpg";
 
 export const Route = createFileRoute("/atelier")({
   head: () => ({
@@ -130,6 +132,22 @@ function Page() {
         />
         <img
           src={img}
+          alt="Pièces de chaudronnerie fabriquées à l'atelier SAM MECA"
+          loading="lazy"
+          width={1200}
+          height={800}
+          className="h-72 w-full object-cover"
+        />
+        <img
+          src={img1}
+          alt="Structure métallique fabriquée par SAM MECA"
+          loading="lazy"
+          width={1600}
+          height={900}
+          className="h-72 w-full object-cover"
+        />
+        <img
+          src={galleryImg2}
           alt="Pièces de chaudronnerie fabriquées à l'atelier SAM MECA"
           loading="lazy"
           width={1200}

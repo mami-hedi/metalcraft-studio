@@ -3,6 +3,7 @@ import { ServiceLayout } from "@/components/site/ServiceLayout";
 import img from "@/assets/usinage-fabrication-mecanique-hero.jpg";
 import galleryImg from "@/assets/usinage-fabrication-mecanique1.jpeg";
 import galleryImg2 from "@/assets/usinage-fabrication-mecanique2.jpg";
+import galleryImg3 from "@/assets/usinage-fabrication-mecanique3.jpg";
 
 export const Route = createFileRoute("/usinage-fabrication-mecanique")({
   head: () => ({
@@ -76,7 +77,7 @@ function Page() {
         },
       ]}
       
-      gallery={[galleryImg, galleryImg2]}
+      gallery={[galleryImg, galleryImg2, galleryImg3, ]}
     />
   );
 }

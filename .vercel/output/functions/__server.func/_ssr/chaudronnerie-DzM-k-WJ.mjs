@@ -1,8 +1,10 @@
 import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.mjs";
 import { t as ServiceLayout } from "./ServiceLayout-BeegndSO.mjs";
 import { t as chaudronnerie1_default } from "./chaudronnerie1-CXFgRrMv.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/chaudronnerie-yGPVVs4e.js
+//#region node_modules/.nitro/vite/services/ssr/assets/chaudronnerie-DzM-k-WJ.js
 var import_jsx_runtime = require_jsx_runtime();
+var sam_meca_ch_default = "/assets/sam-meca-ch-D_BHcRvs.jpg";
+var sam_meca_ch2_default = "/assets/sam-meca-ch2-WL98oQtM.jpg";
 function Page() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ServiceLayout, {
 		eyebrow: "Domaine d'intervention",
@@ -31,7 +33,11 @@ function Page() {
 				body: "Équipements mécaniques sur mesure : vis de convoyage, turbines et pièces techniques spécifiques."
 			}
 		],
-		gallery: Array(3).fill(chaudronnerie1_default)
+		gallery: [
+			chaudronnerie1_default,
+			sam_meca_ch_default,
+			sam_meca_ch2_default
+		]
 	});
 }
 //#endregion

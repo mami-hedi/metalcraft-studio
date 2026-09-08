@@ -2,7 +2,9 @@ import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.m
 import { d as Flame, i as ShieldCheck, n as Wrench } from "../_libs/lucide-react.mjs";
 import { t as construction_metallique_default } from "./construction-metallique-CC0PuN1X.mjs";
 import { t as hero_atelier_default } from "./hero-atelier-C7Ig9aK7.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/atelier-Cd8yvbSV.js
+import { t as maintenceindustrielle1_default } from "./maintenceindustrielle1-G_Iiy-hy.mjs";
+import { t as usinage_fabrication_mecanique2_default } from "./usinage-fabrication-mecanique2-zRrF0xCL.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/atelier-CkNmkhpR.js
 var import_jsx_runtime = require_jsx_runtime();
 var usinage = [
 	"Fraiseuse aléseuse vernier",
@@ -116,21 +118,40 @@ function Page() {
 		}),
 		/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
 			className: "mx-auto grid max-w-7xl gap-6 px-4 pb-8 md:grid-cols-2",
-			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-				src: hero_atelier_default,
-				alt: "Structure métallique fabriquée par SAM MECA",
-				loading: "lazy",
-				width: 1600,
-				height: 900,
-				className: "h-72 w-full object-cover"
-			}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-				src: construction_metallique_default,
-				alt: "Pièces de chaudronnerie fabriquées à l'atelier SAM MECA",
-				loading: "lazy",
-				width: 1200,
-				height: 800,
-				className: "h-72 w-full object-cover"
-			})]
+			children: [
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+					src: hero_atelier_default,
+					alt: "Structure métallique fabriquée par SAM MECA",
+					loading: "lazy",
+					width: 1600,
+					height: 900,
+					className: "h-72 w-full object-cover"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+					src: construction_metallique_default,
+					alt: "Pièces de chaudronnerie fabriquées à l'atelier SAM MECA",
+					loading: "lazy",
+					width: 1200,
+					height: 800,
+					className: "h-72 w-full object-cover"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+					src: maintenceindustrielle1_default,
+					alt: "Structure métallique fabriquée par SAM MECA",
+					loading: "lazy",
+					width: 1600,
+					height: 900,
+					className: "h-72 w-full object-cover"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+					src: usinage_fabrication_mecanique2_default,
+					alt: "Pièces de chaudronnerie fabriquées à l'atelier SAM MECA",
+					loading: "lazy",
+					width: 1200,
+					height: 800,
+					className: "h-72 w-full object-cover"
+				})
+			]
 		})
 	] });
 }
