@@ -1,6 +1,6 @@
 import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.mjs";
 import { h as Link } from "../_libs/@tanstack/react-router+[...].mjs";
-import { _ as ArrowRight, a as Ruler, d as Flame, f as Factory, i as ShieldCheck, n as Wrench, p as Cog, r as Users, u as Headphones } from "../_libs/lucide-react.mjs";
+import { a as Ruler, d as Headphones, f as Flame, i as ShieldCheck, m as Cog, n as Wrench, p as Factory, r as Users, v as ArrowRight } from "../_libs/lucide-react.mjs";
 import { t as construction_metallique_default } from "./construction-metallique-CC0PuN1X.mjs";
 import { t as hero_atelier_default } from "./hero-atelier-C7Ig9aK7.mjs";
 import { t as maintenceindustrielle1_default } from "./maintenceindustrielle1-BJTE4I_i.mjs";

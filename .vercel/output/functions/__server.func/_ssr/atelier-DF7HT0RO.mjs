@@ -1,5 +1,5 @@
 import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.mjs";
-import { d as Flame, i as ShieldCheck, n as Wrench } from "../_libs/lucide-react.mjs";
+import { f as Flame, i as ShieldCheck, n as Wrench } from "../_libs/lucide-react.mjs";
 import { t as construction_metallique_default } from "./construction-metallique-CC0PuN1X.mjs";
 import { t as hero_atelier_default } from "./hero-atelier-C7Ig9aK7.mjs";
 import { t as maintenceindustrielle1_default } from "./maintenceindustrielle1-BJTE4I_i.mjs";

@@ -1,7 +1,7 @@
 import { t as chaudronnerie_default } from "./chaudronnerie-LxDWvHDp.mjs";
 import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.mjs";
 import { h as Link } from "../_libs/@tanstack/react-router+[...].mjs";
-import { d as Flame, f as Factory, n as Wrench, p as Cog, r as Users, u as Headphones } from "../_libs/lucide-react.mjs";
+import { d as Headphones, f as Flame, m as Cog, n as Wrench, p as Factory, r as Users } from "../_libs/lucide-react.mjs";
 //#region node_modules/.nitro/vite/services/ssr/assets/a-propos-B3kXwq9M.js
 var import_jsx_runtime = require_jsx_runtime();
 var domaines = [
