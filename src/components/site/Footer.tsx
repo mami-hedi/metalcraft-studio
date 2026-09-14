@@ -11,7 +11,7 @@ export function Footer() {
           <div className="rule-signal" />
           <p className="mt-4 max-w-sm text-sm text-white/70">
   Sociéte de construction métallique, chaudronnerie, fabrication de pièces mécaniques et
-  maintenance industrielle à Hammamet. Étude, fabrication et montage sur mesure.
+  maintenance industrielle.
 </p>
           <Link
             to="/contact"

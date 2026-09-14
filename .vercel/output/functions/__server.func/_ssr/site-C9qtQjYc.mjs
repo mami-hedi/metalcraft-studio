@@ -1,4 +1,4 @@
-//#region node_modules/.nitro/vite/services/ssr/assets/site-Zp2OqwdD.js
+//#region node_modules/.nitro/vite/services/ssr/assets/site-C9qtQjYc.js
 var SITE = {
 	name: "SAM MECA",
 	phone: "+216 94 358 115",
@@ -8,7 +8,8 @@ var SITE = {
 	postalCode: "8050",
 	city: "Hammamet",
 	country: "Tunisie",
-	hours: "Lun – Sam : 8h00 – 18h00"
+	hours: "Lundi – Vendredi : 8h00 – 16h00 ",
+	samedi: "Samedi : 8h00 - 13h00"
 };
 `${SITE.street}${SITE.postalCode}${SITE.city}${SITE.country}`;
 var serviceLinks = [

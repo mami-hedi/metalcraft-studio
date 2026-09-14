@@ -2,9 +2,9 @@ import { r as __toESM } from "../_runtime.mjs";
 import { n as require_jsx_runtime, r as require_react, t as QueryClientProvider } from "../_libs/react+tanstack__react-query.mjs";
 import { c as HeadContent, d as Outlet, f as lazyRouteComponent, g as useRouter, h as Link, m as createRootRouteWithContext, p as createFileRoute, s as Scripts, u as createRouter } from "../_libs/@tanstack/react-router+[...].mjs";
 import { c as MapPin, g as ChevronDown, l as Mail, o as Phone, s as Menu, t as X } from "../_libs/lucide-react.mjs";
-import { n as serviceLinks, t as SITE } from "./site-Zp2OqwdD.mjs";
+import { n as serviceLinks, t as SITE } from "./site-C9qtQjYc.mjs";
 import { t as QueryClient } from "../_libs/tanstack__query-core.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-CLu4fm9R.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-BMIcOEFD.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var styles_default = "/assets/styles-CNDvbq_A.css";
@@ -183,7 +183,7 @@ function Footer() {
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "rule-signal" }),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 						className: "mt-4 max-w-sm text-sm text-white/70",
-						children: "Sociéte de construction métallique, chaudronnerie, fabrication de pièces mécaniques et maintenance industrielle à Hammamet. Étude, fabrication et montage sur mesure."
+						children: "Sociéte de construction métallique, chaudronnerie, fabrication de pièces mécaniques et maintenance industrielle."
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
 						to: "/contact",
@@ -762,7 +762,7 @@ var Route$4 = createFileRoute("/construction-metallique")({
 	}),
 	component: lazyRouteComponent($$splitComponentImporter$4, "component")
 });
-var $$splitComponentImporter$3 = () => import("./contact-BLD1tYG5.mjs");
+var $$splitComponentImporter$3 = () => import("./contact-DesQzQA5.mjs");
 var Route$3 = createFileRoute("/contact")({
 	head: () => ({
 		meta: [

@@ -218,6 +218,9 @@ function Page() {
             <li className="flex gap-3">
               <Clock className="h-4 w-4 shrink-0 text-accent" /> {SITE.hours}
             </li>
+            <li className="flex gap-3">
+              <Clock className="h-4 w-4 shrink-0 text-accent" /> {SITE.samedi}
+            </li>
           </ul>
 
           <a

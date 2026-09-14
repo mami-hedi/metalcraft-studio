@@ -7,7 +7,8 @@ export const SITE = {
   postalCode: "8050",
   city: "Hammamet",
   country: "Tunisie",
-  hours: "Lun – Sam : 8h00 – 18h00",
+  hours: "Lundi – Vendredi : 8h00 – 16h00 ",
+  samedi : "Samedi : 8h00 - 13h00"
 } as const;
 
 export const ADDRESS_LINE = `${SITE.street}, ${SITE.postalCode} ${SITE.city}, ${SITE.country}`;
