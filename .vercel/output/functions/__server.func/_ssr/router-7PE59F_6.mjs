@@ -4,7 +4,7 @@ import { c as HeadContent, d as Outlet, f as lazyRouteComponent, g as useRouter,
 import { c as MapPin, g as ChevronDown, l as Mail, o as Phone, s as Menu, t as X } from "../_libs/lucide-react.mjs";
 import { n as serviceLinks, t as SITE } from "./site-C9qtQjYc.mjs";
 import { t as QueryClient } from "../_libs/tanstack__query-core.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-BMIcOEFD.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-7PE59F_6.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var styles_default = "/assets/styles-CNDvbq_A.css";
@@ -521,7 +521,7 @@ var Route$9 = createFileRoute("/a-propos")({
 	}),
 	component: lazyRouteComponent($$splitComponentImporter$9, "component")
 });
-var $$splitComponentImporter$8 = () => import("./atelier-DF7HT0RO.mjs");
+var $$splitComponentImporter$8 = () => import("./atelier-9YuYtrh2.mjs");
 var Route$8 = createFileRoute("/atelier")({
 	head: () => ({
 		meta: [

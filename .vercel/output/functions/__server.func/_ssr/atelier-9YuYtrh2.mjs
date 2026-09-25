@@ -4,8 +4,11 @@ import { t as construction_metallique_default } from "./construction-metallique-
 import { t as hero_atelier_default } from "./hero-atelier-C7Ig9aK7.mjs";
 import { t as maintenceindustrielle1_default } from "./maintenceindustrielle1-BJTE4I_i.mjs";
 import { t as usinage_fabrication_mecanique2_default } from "./usinage-fabrication-mecanique2-zRrF0xCL.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/atelier-DF7HT0RO.js
+//#region node_modules/.nitro/vite/services/ssr/assets/atelier-9YuYtrh2.js
 var import_jsx_runtime = require_jsx_runtime();
+var atelier3_default = "/assets/atelier3-DD1wCVs-.jpg";
+var atelier4_default = "/assets/atelier4-CZhjVXRH.jpg";
+var atelier5_default = "/assets/atelier5-CNFxaZQz.jpg";
 var usinage = [
 	"Fraiseuse aléseuse vernier",
 	"Tour parallèle 3 m",
@@ -146,6 +149,30 @@ function Page() {
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
 					src: usinage_fabrication_mecanique2_default,
 					alt: "Pièces de chaudronnerie fabriquées à l'atelier SAM MECA",
+					loading: "lazy",
+					width: 1200,
+					height: 800,
+					className: "h-72 w-full object-cover"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+					src: atelier3_default,
+					alt: "l'atelier SAM MECA",
+					loading: "lazy",
+					width: 1200,
+					height: 800,
+					className: "h-72 w-full object-cover"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+					src: atelier4_default,
+					alt: "l'atelier SAM MECA",
+					loading: "lazy",
+					width: 1200,
+					height: 800,
+					className: "h-72 w-full object-cover"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+					src: atelier5_default,
+					alt: "l'atelier SAM MECA",
 					loading: "lazy",
 					width: 1200,
 					height: 800,
