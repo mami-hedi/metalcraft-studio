@@ -4,6 +4,9 @@ import img from "@/assets/construction-metallique.jpeg";
 import img2 from "@/assets/hero-atelier.jpg";
 import img1 from "@/assets/maintenceindustrielle1.jpg";
 import galleryImg2 from "@/assets/usinage-fabrication-mecanique2.jpg";
+import galleryImg3 from "@/assets/atelier3.jpg";
+import galleryImg4 from "@/assets/atelier4.jpg";
+import galleryImg5 from "@/assets/atelier5.jpg";
 
 export const Route = createFileRoute("/atelier")({
   head: () => ({
@@ -149,6 +152,31 @@ function Page() {
         <img
           src={galleryImg2}
           alt="Pièces de chaudronnerie fabriquées à l'atelier SAM MECA"
+          loading="lazy"
+          width={1200}
+          height={800}
+          className="h-72 w-full object-cover"
+        />
+        
+        <img
+          src={galleryImg3}
+          alt="l'atelier SAM MECA"
+          loading="lazy"
+          width={1200}
+          height={800}
+          className="h-72 w-full object-cover"
+        />
+        <img
+          src={galleryImg4}
+          alt="l'atelier SAM MECA"
+          loading="lazy"
+          width={1200}
+          height={800}
+          className="h-72 w-full object-cover"
+        />
+        <img
+          src={galleryImg5}
+          alt="l'atelier SAM MECA"
           loading="lazy"
           width={1200}
           height={800}
